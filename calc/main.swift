@@ -10,12 +10,6 @@ import Foundation
 
 let args = CommandLine.arguments.dropFirst()
 
-// Show usage if no input
-if args.isEmpty {
-    print("Usage: ./calc <expression>")
-    print("Example: ./calc 3 + 5 x 2 - 1")
-    exit(1)
-}
 
 // Create calculator and evaluate input
 let calc = Calculator()
